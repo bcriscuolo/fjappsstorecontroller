@@ -421,14 +421,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     [self fjappsDismissLoading:animated];
 }
 
--(UIInterfaceOrientation) preferredInterfaceOrientationForPresentation {
-    // Portrait orientation only
-    return (UIInterfaceOrientationPortrait);
-}
-
 -(NSUInteger) supportedInterfaceOrientations {
-    // Portrait orientation only
-    return (UIInterfaceOrientationMaskPortrait);
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+        return UIInterfaceOrientationMaskLandscape;
+    else
+        return UIInterfaceOrientationMaskPortrait;
 }
 
 #pragma mark - UITableViewDataSource protocol

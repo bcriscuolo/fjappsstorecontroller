@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1552</int>
-		<string key="IBDocument.SystemVersion">12C60</string>
+		<string key="IBDocument.SystemVersion">12D78</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">2083</string>
@@ -36,7 +36,7 @@
 			</object>
 			<object class="IBUITableViewCell" id="276661754">
 				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">292</int>
+				<int key="NSvFlags">290</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUIView" id="1060581135">
 						<reference key="NSNextResponder" ref="276661754"/>
@@ -44,7 +44,7 @@
 						<array class="NSMutableArray" key="NSSubviews">
 							<object class="IBUILabel" id="1004278478">
 								<reference key="NSNextResponder" ref="1060581135"/>
-								<int key="NSvFlags">292</int>
+								<int key="NSvFlags">294</int>
 								<string key="NSFrame">{{104, 8}, {196, 29}}</string>
 								<reference key="NSSuperview" ref="1060581135"/>
 								<reference key="NSWindow"/>
@@ -69,14 +69,12 @@
 								<int key="IBUIBaselineAdjustment">0</int>
 								<float key="IBUIMinimumFontSize">18</float>
 								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<string key="name">STHeitiTC-Medium</string>
-									<string key="family">Heiti TC</string>
-									<int key="traits">2</int>
-									<double key="pointSize">24</double>
+									<int key="type">1</int>
+									<double key="pointSize">21</double>
 								</object>
 								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">STHeitiTC-Medium</string>
-									<double key="NSSize">24</double>
+									<string key="NSName">Helvetica</string>
+									<double key="NSSize">21</double>
 									<int key="NSfFlags">16</int>
 								</object>
 							</object>
@@ -99,7 +97,7 @@
 									<object class="IBUILabel" id="508794267">
 										<reference key="NSNextResponder" ref="702394110"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{0, 3}, {78, 29}}</string>
+										<string key="NSFrameSize">{78, 29}</string>
 										<reference key="NSSuperview" ref="702394110"/>
 										<reference key="NSWindow"/>
 										<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -118,14 +116,12 @@
 										<string key="IBUIShadowOffset">{2, 2}</string>
 										<int key="IBUIBaselineAdjustment">0</int>
 										<int key="IBUITextAlignment">1</int>
-										<object class="IBUIFontDescription" key="IBUIFontDescription">
-											<string key="name">STHeitiSC-Medium</string>
-											<string key="family">Heiti SC</string>
-											<int key="traits">2</int>
+										<object class="IBUIFontDescription" key="IBUIFontDescription" id="446728668">
+											<int key="type">1</int>
 											<double key="pointSize">17</double>
 										</object>
-										<object class="NSFont" key="IBUIFont">
-											<string key="NSName">STHeitiSC-Medium</string>
+										<object class="NSFont" key="IBUIFont" id="781829178">
+											<string key="NSName">Helvetica</string>
 											<double key="NSSize">17</double>
 											<int key="NSfFlags">16</int>
 										</object>
@@ -162,23 +158,14 @@
 								<reference key="IBUITextColor" ref="974099943"/>
 								<reference key="IBUIHighlightedColor" ref="342768484"/>
 								<int key="IBUIBaselineAdjustment">0</int>
-								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<string key="name">STHeitiTC-Light</string>
-									<string key="family">Heiti TC</string>
-									<int key="traits">0</int>
-									<double key="pointSize">17</double>
-								</object>
-								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">STHeitiTC-Light</string>
-									<double key="NSSize">17</double>
-									<int key="NSfFlags">16</int>
-								</object>
+								<reference key="IBUIFontDescription" ref="446728668"/>
+								<reference key="IBUIFont" ref="781829178"/>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 							</object>
 							<object class="IBUILabel" id="770128899">
 								<reference key="NSNextResponder" ref="1060581135"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{104, 63}, {100, 21}}</string>
+								<string key="NSFrame">{{104, 59}, {100, 21}}</string>
 								<reference key="NSSuperview" ref="1060581135"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="702394110"/>
@@ -196,15 +183,8 @@
 								</object>
 								<reference key="IBUIHighlightedColor" ref="342768484"/>
 								<int key="IBUIBaselineAdjustment">0</int>
-								<object class="IBUIFontDescription" key="IBUIFontDescription">
-									<int key="type">1</int>
-									<double key="pointSize">17</double>
-								</object>
-								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">Helvetica</string>
-									<double key="NSSize">17</double>
-									<int key="NSfFlags">16</int>
-								</object>
+								<reference key="IBUIFontDescription" ref="446728668"/>
+								<reference key="IBUIFont" ref="781829178"/>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 							</object>
 							<object class="IBUIActivityIndicatorView" id="292209231">
